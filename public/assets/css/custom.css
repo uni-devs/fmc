@@ -1,0 +1,109 @@
+* {
+    font-family: 'Tajawal', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.has-line-white:after{
+    content: "";
+    display: block;
+    width: 35%;
+    background: #eeeeee;
+    height: 1px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+.has-line-black:after{
+    content: "";
+    display: block;
+    width: 35%;
+    background: #333333;
+    height: 1px;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+.footer a {
+    color: #eeeeee;
+    transition: 0.1s all ease-in-out;
+}
+.footer a:hover {
+    color: #e67e22;
+}
+.bg-main {
+    background: #e67e22;
+}
+.fb-link {
+    background: #4267B2;
+    color: white;
+    margin: 5px;
+    padding: 5px 9px;
+    font-size: 18px;
+    border-radius: 100% ;
+}
+.fb-link:hover {
+    color: #4267B2 !important;
+    background: white;
+    font-weight: bold;
+}
+
+.twitter-link {
+    background: #1DA1F2;
+    color: white;
+    margin: 5px;
+    padding: 5px 9px;
+    font-size: 18px;
+    border-radius: 100% ;
+}
+.twitter-link:hover {
+    color: #1DA1F2 !important;
+    font-weight: bold;
+    background: white;
+}
+
+.whatsapp-link {
+    background: #128C7E;
+    color: white;
+    margin: 5px;
+    padding: 5px 9px;
+    font-size: 18px;
+    border-radius: 100% ;
+}
+.whatsapp-link:hover {
+    background: white;
+    color: #128C7E !important;
+    font-weight: bold;
+
+}
+
+.snapchat-link {
+    background: #FFFC00;
+    color: black;
+    margin: 5px;
+    padding: 5px 9px;
+    font-size: 18px;
+    border-radius: 100% ;
+}
+.snapchat-link:hover {
+    color: #333333;
+    background: white !important;
+    font-weight: bold;
+}
+
+.share-links a:hover{
+    background: white;
+}
+.share-links a{
+    transition: 0.2s all ease-in-out;
+}
+
+
+@media screen and (max-width: 435px) {
+    #banner .container {
+        padding-top: 35px;
+        padding-bottom:  35px;
+    }
+    #banner img {
+        height: 100% !important;
+    }
+}
