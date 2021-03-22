@@ -20,19 +20,26 @@
                         <h6>اذا كان لديك اي اسئلة او استفسارات يمكنك التواصل معنا عبر الوسائل التالية</h6>
                         <div class="row mt-3">
                             <div class="col-lg-4 col-md-6 col-6">
-                                <a href="" class="btn fb-link rounded-0 w-100">
-                                    <span class="mdi mdi-facebook"></span>
-                                     فيسبوك
+                                <a href="https://instagram.com/okool_alc?igshid=146bv2r8fe0nj" 
+                                class="btn insta-link rounded-0 w-100">
+                                    <span class="mdi mdi-instagram"></span>
+                                    انستاغرام
                                 </a>
                             </div>
                             <div class="col-lg-4 col-md-6 col-6">
-                                <a href="" class="btn whatsapp-link rounded-0 w-100">
+                                <a href="https://wa.me/966530066404" class="btn whatsapp-link rounded-0 w-100">
+                                    <span class="mdi mdi-whatsapp"></span>
+                                     واتس اب
+                                </a>
+                            </div> 
+                            <div class="col-lg-4 col-md-6 col-6">
+                                <a href="https://wa.me/966555038044" class="btn whatsapp-link rounded-0 w-100">
                                     <span class="mdi mdi-whatsapp"></span>
                                      واتس اب
                                 </a>
                             </div>
                             <div class="col-lg-4 col-md-6 col-6">
-                                <a href="" class="btn snapchat-link rounded-0 w-100">
+                                <a href="https://www.snapchat.com/add/okool_alc" class="btn snapchat-link rounded-0 w-100">
                                     <span class="mdi mdi-snapchat"></span>
                                     سناب شات
                                 </a>

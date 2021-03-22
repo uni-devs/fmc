@@ -31,10 +31,11 @@
             <div class="col-md-4 text-right">
                 <h5 class="has-line-white">تواصل معنا</h5>
                 <div class="d-flex">
-                    <a class="fb-link" href=""><span class="mdi mdi-facebook"></span></a>
-                    <a class="whatsapp-link" href=""><span class="mdi mdi-whatsapp"></span></a>
-                    <a class="twitter-link" href=""><span class="mdi mdi-twitter"></span></a>
-                    <a class="snapchat-link" href=""><span class="mdi mdi-snapchat"></span></a>
+                    <a class="youtube-link" href="https://youtube.com/channel/UCAl5oVZqSlgzWbod71junMQ"><span class="mdi mdi-youtube"></span></a>
+                    <a class="insta-link" href="https://instagram.com/okool_alc"><span class="mdi mdi-instagram"></span></a>
+                    <a class="whatsapp-link" href="https://wa.me/966530066404"><span class="mdi mdi-whatsapp"></span></a>
+                    <a class="twitter-link" href="https://twitter.com/okool_alc?s=11"><span class="mdi mdi-twitter"></span></a>
+                    <a class="snapchat-link" href="https://www.snapchat.com/add/okool_alc"><span class="mdi mdi-snapchat"></span></a>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
             <img style="height: 40px" src="{{ asset('assets/img/logo.png') }}" alt="">
-            <span>مركو عقول مثمرة</span>
+            <span>مركز عقول مثمرة</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

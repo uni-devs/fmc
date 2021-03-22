@@ -46,6 +46,33 @@ a:hover {
     background: white;
     font-weight: bold;
 }
+.insta-link {
+    background: #C13584    ;
+    color: white;
+    margin: 5px;
+    padding: 5px 9px;
+    font-size: 18px;
+    border-radius: 100% ;
+}
+.insta-link:hover {
+    color: #C13584  !important;
+    background: white;
+    font-weight: bold;
+}
+
+.youtube-link {
+    background: #FF0000    ;
+    color: white;
+    margin: 5px;
+    padding: 5px 9px;
+    font-size: 18px;
+    border-radius: 100% ;
+}
+.youtube-link:hover {
+    color: #FF0000    !important;
+    background: white;
+    font-weight: bold;
+}
 
 .twitter-link {
     background: #1DA1F2;
