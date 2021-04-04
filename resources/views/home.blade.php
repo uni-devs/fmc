@@ -30,14 +30,14 @@
             </div>
             <div class="col-md-9 text-right">
                 <h4 class="mb-4 has-line-black">
-                    @unless('trainer|super_admin')
+                    @if(!auth()->user()->hasAnyRole('trainer|super_admin'))
                         الدورات المسجل به
                     @else
                         الدورات الخاصة بي
-                    @endunlessrole
+                    @endif
                 </h4>
                 <hr>
-                @unless('trainer|super_admin')
+                @if(!auth()->user()->hasAnyRole('trainer|super_admin'))
                     @forelse($registrations as $record)
                         @php $item = $record->workshop; @endphp
                         <div class="card">
@@ -89,8 +89,7 @@
                             </div>
                         </div>
                     @endforelse
-                @endunlessrole
-
+                @endif
             </div>
         </div>
     </div>
