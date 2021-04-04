@@ -55,7 +55,7 @@
                                 </a>
                                 <hr>
                                 <h6 class="mb-0"><span class="mdi mdi-calendar"></span> {{ 'من '.$item->date_from." الي ".$item->date_to }}</h6>
-                                <h6 class="mb-0"><span class="mdi mdi-clock-outline"></span> {{ $item->duration }}</h6>
+                                <h6 class="mb-0"><span class="mdi mdi-clock-outline"></span> {{ 'من '.$item->time_from." الي ".$item->time_to }}</h6>
                                 <h6><span class="mdi mdi-account"></span> {{ $item->trainer->name }}</h6>
                                 @unlessrole('trainer|super_admin')
                                 <div class="action text-left">

@@ -17,11 +17,10 @@ class CreateWorkshopsTable extends Migration
             $table->id();
             $table->string('name');
             $table->double('price');
-            $table->text('info');
-            $table->string('duration');
+            $table->string('time_from');
+            $table->string('time_to');
             $table->date('date_from');
             $table->date('date_to');
-            $table->string('code')->unique();
             $table->bigInteger('image_id')->unsigned();
             $table->bigInteger('trainer_id')->unsigned();
             $table->timestamps();

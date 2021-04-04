@@ -104,14 +104,6 @@
                                 <input class="form-control" type="text" name="name" id="name" required>
                             </div>
                             <div class="form-group">
-                                <label for="info">@lang("workshop.info")</label>
-                                <textarea name="info" id="info" cols="4" class="form-control"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="code">@lang('workshop.code')</label>
-                                <input class="form-control" type="text" name="code" id="code" required>
-                            </div>
-                            <div class="form-group">
                                 <label for="trainer_id_text">@lang('workshop.trainer')</label>
                                 <input id="trainer_id" required type="hidden" name="trainer_id">
                                 <input type="text" class='form-control basicAutoComplete'
@@ -121,8 +113,12 @@
 
                             </div>
                             <div class="form-group">
-                                <label for="duration">@lang('workshop.duration')</label>
-                                <input class="form-control" type="text" name="duration" id="duration" required>
+                                <label for="time_from">@lang('workshop.time_from')</label>
+                                <input class="form-control" type="time" name="time_from" id="time_from" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time_to">@lang('workshop.time_to')</label>
+                                <input class="form-control" type="time" name="time_to" id="time_to" required>
                             </div>
                             <div class="form-group">
                                 <label for="date_from">@lang('workshop.date_from')</label>

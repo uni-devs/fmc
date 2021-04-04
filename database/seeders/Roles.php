@@ -17,10 +17,6 @@ class Roles extends Seeder
     {
 
         $trainer = Role::create(['name' => 'trainer']);
-        $trainer_p1 = Permission::create(['name' => 'add workshop']);
-        $trainer_p2 = Permission::create(['name' => 'edit workshop']);
-        $trainer->syncPermissions([$trainer_p1,$trainer_p2]);
-
         $admin = Role::create(['name' => 'admin']);
         $admin->syncPermissions([$trainer_p2,$trainer_p1]);
     }

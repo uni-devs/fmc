@@ -14,10 +14,9 @@
                 <a href="{{ route('workshops.single',$item->id) }}">
                     <h4>{{ $item->name }}</h4>
                 </a>
-                <p>{{ $item->info }}</p>
                 <hr>
                 <h5 class="mb-1"><span class="mdi mdi-calendar"></span> {{ 'من '.$item->date_from." الي ".$item->date_to }}</h5>
-                <h5 class="mb-1"><span class="mdi mdi-clock-outline"></span> {{ $item->duration }}</h5>
+                <h6 class="mb-0"><span class="mdi mdi-clock-outline"></span> {{ 'من '.$item->time_from." الي ".$item->time_to }}</h6>
                 <h5><span class="mdi mdi-account"></span> المدرب {{ $item->trainer->name }}</h5>
             </div>
             <div class="col-md-4 mt-md-4 mt-0">

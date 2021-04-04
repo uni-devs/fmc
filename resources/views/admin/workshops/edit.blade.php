@@ -24,18 +24,6 @@
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label for="info">@lang("workshop.info")</label>
-                                <textarea name="info" id="info" cols="4" class="form-control">{{$item->info}}</textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <label for="code">@lang('workshop.code')</label>
-                                <input disabled value="{{ $item->code }}" class="form-control" type="text" name="code" id="code" required>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="form-group">
                                 <label for="trainer_id_text">@lang('workshop.trainer')</label>
                                 <input value="{{ $item->trainer_id }}" id="trainer_id" required type="hidden" name="trainer_id">
                                 <input
@@ -48,8 +36,14 @@
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label for="duration">@lang('workshop.duration')</label>
-                                <input value="{{$item->duration}}" class="form-control" type="text" name="duration" id="duration" required>
+                                <label for="time_from">@lang('workshop.time_from')</label>
+                                <input value="{{$item->time_from}}" class="form-control" type="text" name="time_from" id="time_from" required>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="time_to">@lang('workshop.time_to')</label>
+                                <input value="{{$item->time_to}}" class="form-control" type="text" name="time_to" id="time_to" required>
                             </div>
                         </div>
                         <div class="col-md-3">
