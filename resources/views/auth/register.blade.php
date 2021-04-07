@@ -105,17 +105,17 @@
 
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="is_trainer" class="text-md-right">هل تريد التسجيل كمدرب</label>
+                            <label for="is_trainer" class="text-md-right">نوع الحساب</label>
 
                             <select name="is_trainer" id="is_trainer" class="form-control @error('is_trainer') is-invalid @enderror">
-                                <option value="" disabled readonly="" selected>
-                                    الرجاء اختيار اجابة
-                                </option>
+{{--                                <option value="" disabled readonly="" selected>--}}
+{{--                                    الرجاء اختيار اجابة--}}
+{{--                                </option>--}}
                                 <option value="0">
-                                    @lang('app.no')
+                                   متدرب
                                 </option>
                                 <option value="1">
-                                    @lang('app.yes')
+                                    مدرب
                                 </option>
                             </select>
 
