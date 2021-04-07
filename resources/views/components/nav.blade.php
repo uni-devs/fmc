@@ -26,7 +26,7 @@
                         <a class="nav-link" href="{{ route('admin.workshops.all') }}">الدورات</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/blog">المدونة</a>
+                        <a class="nav-link" href="{{ url('/blog') }}">المدونة</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('about') }}">من نحن</a>
@@ -48,7 +48,7 @@
                         <a class="nav-link" href="{{ route('workshops.all') }}">الدورات</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/blog">المدونة</a>
+                        <a class="nav-link" href="{{ url('/blog') }}">المدونة</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('about') }}">من نحن</a>
